@@ -1,0 +1,14 @@
+{
+  "name": "purehtml",
+  "version": "1.0.0",
+  "description": "html静态页面",
+  "scripts": {
+    "serve": "cross-env PORT=4003 http-server . --cors"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "http-server": "^14.1.1"
+  }
+}

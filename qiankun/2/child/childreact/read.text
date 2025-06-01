@@ -1,0 +1,27 @@
+1、react-router-dom 
+2、BrowserRouter HashRouter 标签
+3、路由组件与一般组件的区别 
+4、Route标签  路由组件
+5、NavLink标签  高亮效果
+6、activeClassName  自定义高亮路由类名
+7、批量接收props {...this.props}
+8、children相当于标签体内容
+9、Switch to只匹配path一次，可以提高效率
+
+    <NavLink to='/home'>编程式路由</NavLink>
+    <Route  path="/home" component={Home}/>    
+    <Route  path="/home" component={Test1}/>
+    此时 to同时匹配 home和test1路由组件  使用Switch标签后只匹配第一个
+
+10、exact属性严格匹配  to匹配path 按需使用，一般不用开启
+    <Route  exact={true} path="/test" component={Test}/>   to='/test/a/b'    此时to不能匹配path
+    <Route  exact={false} path="/test" component={Test}/>   to='/test/a/b'    此时可以匹配path
+11、Redict重定向  兜底
+12、路由嵌套
+13、路由传参  pathname
+14、push与replace
+15、witchRoute 使一般组件拥有路由组件的属性，返回值是一个新组件
+16、编程式路由
+    this.props.push()
+    this.props.replace()
+	

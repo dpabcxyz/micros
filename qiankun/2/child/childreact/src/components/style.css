@@ -1,0 +1,53 @@
+.nav{
+    float: left;
+    width: 150px;
+    height: 400px;
+    margin: 20px 36px 0 20px;
+    padding-right: 12px;
+    border-right: 1px solid #999;
+}
+.nav a{
+    display: block;
+    height: 24px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #999;
+    line-height: 24px;
+    color: #333;
+    text-decoration: none;
+}
+.hehe{
+    color: green!important;
+  }
+.nav .active{
+    color: red;
+}
+.content{
+    float: left;
+}
+.about{
+    color: royalblue;
+}
+.home{
+    color: blueviolet;
+}
+.home .homeNav{
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    /* padding-bottom: 12px; */
+    border-bottom: 1px solid #333;
+}
+.home .homeNav a{
+    display: block;
+    float: left;
+    margin: 0 12px;
+    text-decoration: none;
+}
+.home .homeContent{
+    color: #333;
+}
+.header{
+    box-sizing: border-box;
+    padding-bottom: 12px;
+    border-bottom: 1px solid red;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "jqueryapp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "cross-env PORT=8002 http-server . --cors"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "http-server": "^0.12.1"
+  }
+}
