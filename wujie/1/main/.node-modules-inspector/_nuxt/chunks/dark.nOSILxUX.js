@@ -1,0 +1,1 @@
+import{__esmMin as e}from"./rolldown-runtime.uuE8ybV3.js";import{init_core as t,useDark as n}from"./query.BXuTKkU7.js";function r(){i.value=!i.value}var i,a=e(()=>{t(),i=n({valueLight:`light`})});export{a as init_dark,i as isDark,r as toggleDark};
