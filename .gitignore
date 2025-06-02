@@ -19,3 +19,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+module-federation/1/app1/pnpm-lock.yaml
+module-federation/1/app2/pnpm-lock.yaml
+module-federation/2/app-general/pnpm-lock.yaml
+qiankun/1/base/pnpm-lock.yaml
+qiankun/2/child/childreact/pnpm-lock.yaml
