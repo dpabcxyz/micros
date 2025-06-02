@@ -9,7 +9,7 @@
     <WujieVue
       width="100%" 
       height="100%" 
-      name="xxx" 
+      name="app1" 
       :url="url" 
       :sync="true" 
       :beforeLoad="beforeLoad" 

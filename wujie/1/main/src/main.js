@@ -9,6 +9,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import WujieVue from "wujie-vue2";
+const { bus, setupApp, preloadApp, destroyApp } = WujieVue;
 Vue.config.productionTip = false
 Vue.use(WujieVue);
 new Vue({
