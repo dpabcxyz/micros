@@ -4,11 +4,10 @@
 <template>
   <div class="container">
     <div class="nav">
-      <li class="title">Mf-vite-3</li>
+      <li class="title">模块联邦案例2</li>
       <RouterLink to="/">本地组件1</RouterLink>
       <RouterLink to="/page2">本地组件2</RouterLink>
-      <RouterLink to="/page3">模块联邦组件1</RouterLink>
-      <RouterLink to="/page4">模块联邦组件2</RouterLink>
+      <RouterLink to="/page3">模块联邦组件</RouterLink>
     </div>
     <div class="view">
       <RouterView />

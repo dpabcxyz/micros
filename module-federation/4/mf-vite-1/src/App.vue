@@ -4,7 +4,7 @@
 <template>
   <div class="container">
     <div class="nav">
-      <li class="title">Mf-vite-2</li>
+      <li class="title">模块联邦案例1</li>
       <RouterLink to="/">本地组件1</RouterLink>
       <RouterLink to="/page2">本地组件2</RouterLink>
       <RouterLink to="/page3">模块联邦组件</RouterLink>

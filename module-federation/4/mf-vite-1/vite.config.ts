@@ -15,13 +15,13 @@ export default defineConfig({
     vueDevTools(),
     topLevelAwait(),
     federation({
-      name: "app1",        // 应用名称，保证唯一
-      filename:'app1.js', // 模块联邦的入口文件,一般以[name].js命名
-      exposes: {                 // 暴露模块，供host应用引用
+      name: "app1",               // 应用名称，保证唯一
+      filename:'app1.js',         // 模块联邦的入口文件,一般以[name].js命名
+      exposes: {                  // 暴露模块，供host应用引用
         './Page1':'./src/views/page1.vue',
         './Page2':'./src/views/page2.vue',
       },
-      remotes: {                     // 引用其他应用暴露的模块
+      remotes: {                   // 引用其他应用暴露的模块
         //  app2 作为引用组件的时的前缀，用来指代'/child/app2/assets/app2.js',一般使用remote应用的name
         //  /child/app2 一个特殊路径，用于反向代理
         app2:'/child/app2/assets/app2.js'  
