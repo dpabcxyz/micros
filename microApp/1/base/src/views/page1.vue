@@ -9,14 +9,9 @@
 <template>
   <div>
     <h1>子应用1</h1>
-    <!-- 
-      name(必传)：应用名称
-      url(必传)：应用地址，会被自动补全为http://localhost:3000/index.html
-      baseroute(可选)：基座应用分配给子应用的基础路由，就是上面的 `/my-page`
-     -->
-     <button @click="hehe">加载路由</button>
+     <button @click="hehe">加载指定路由</button>
      <div class="test">
-        <micro-app name='app1' url='http://app1'></micro-app>
+        <micro-app name='app1' url='http://app1'  baseroute='/app1/'></micro-app>
      </div>
    
   </div>
@@ -27,7 +22,7 @@ export default{
   name:"",
   methods:{
     hehe(){
-      microApp.router.push({name: 'app1', path: '/app'})
+      microApp.router.push({name: 'app1', path: '/test'})
     }
   }
 }

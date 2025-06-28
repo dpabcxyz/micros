@@ -1,9 +1,3 @@
-/*
- * @Author: hsj
- * @Date: 2021-08-18 13:34:53
- * @LastEditTime: 2022-07-08 23:35:35
- * @LastEditors: chenxuan
- */
 module.exports = {
   devServer: {
     host: '0.0.0.0',
@@ -21,7 +15,7 @@ module.exports = {
         }
       },
       '/app1': {
-        target: 'http://10.64.15.85:8802/',
+         target: 'http://localhost:3001/',
         changeOrigin: true,
         pathRewrite: {
           "^/app1": "",

@@ -11,9 +11,6 @@ importers:
       axios:
         specifier: ^1.6.5
         version: 1.9.0
-      jsencrypt:
-        specifier: ^3.3.2
-        version: 3.3.2
       vue:
         specifier: ^2.6.14
         version: 2.7.16
@@ -1530,9 +1527,6 @@ packages:
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
-  jsencrypt@3.3.2:
-    resolution: {integrity: sha512-arQR1R1ESGdAxY7ZheWr12wCaF2yF47v5qpB76TtV64H1pyGudk9Hvw8Y9tb/FiTIaaTRUyaSnm5T/Y53Ghm/A==}
 
   json-parse-better-errors@1.0.2:
     resolution: {integrity: sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==}
@@ -4370,8 +4364,6 @@ snapshots:
   js-message@1.0.7: {}
 
   js-tokens@4.0.0: {}
-
-  jsencrypt@3.3.2: {}
 
   json-parse-better-errors@1.0.2: {}
 
